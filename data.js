@@ -50,7 +50,7 @@ export const questions = [
     id: '7',
     question: 'How could we improve or alter this familiarization exercise',
     excerpt:
-      'Maybe we can ...',
+      'Maybe we can...',
     answer:
       'Maybe we can add some additional context or complexity to the customer"s request, such as including more specific error messages or providing a more complex codebase. We could also provide additional resources or documentation to help the customer diagnose and resolve their issue, such as links to relevant Vercel documentation or code examples. Additionally, we could create variations of the exercise that focus on different aspects of customer support, such as troubleshooting performance issues, optimizing application code, or assisting with configuration and deployment. This would help to sort of simulate different types of real-world scenarios that customer success engineers may encounter in their work.',
   }
