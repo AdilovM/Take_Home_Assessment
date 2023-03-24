@@ -37,5 +37,21 @@ export const questions = [
       'Imagine a customer writes in, requesting help with the following question. Write a first response for triaging this case and helping them solve the issue...',
     answer:
       'Hello there, We are sorry to hear that you are experiencing this build error with Vercel. Let me see if we can get this issue resolved for you. The error you are seeing usually means that the build process can not find a file that is needed for your application to run or caused by a misconfiguration in your project. In order to troubleshoot this, can you please send me with the following information: Please send full Vercel log and environment information of your machine. What framework or platform are you using to build your application? Please provide their versions as well.  What are recent changes you have made to your code or configuration? Can you please share the Vercel project name or URL? What other errors, warning or logs that you are seeing in the Vercel dashboard or in your terminal? In the meantime, can you please try clearing you cache and then rebuilding your project to see if that resolves the issue. Please let me know if this helps or if you have any questions or concerns.',
+  },
+  {
+    id: '6',
+    question: 'What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?',
+    excerpt:
+      'Most common problems ...',
+    answer:
+      'I believe that one of the most common problems that customers ask Vercel for help with is related to deployment and configuration issues. To help customers overcome these issues in the short-term, Vercel"s support team may provide guidance on how to troubleshoot and resolve issues related to incorrect environment variables, configuration files, or build processes. This may include reviewing the customer"s code or configuration settings and suggesting changes to fix the issue.For performance and scaling issues, Vercel support may suggest short-term solutions such as caching, optimizing code or suggesting scaling solutions to handle increased traffic. To address common problems in the long-term, Vercel may provide customers with resources such as tutorials, documentation, and best practices to help them optimize their applications and avoid common issues. Additionally, Vercel may suggest code review, performance analysis and optimization services to help customers improve their applications over time.',
+  },
+  {
+    id: '7',
+    question: 'How could we improve or alter this familiarization exercise',
+    excerpt:
+      'Maybe we can ...',
+    answer:
+      'Maybe we can add some additional context or complexity to the customer"s request, such as including more specific error messages or providing a more complex codebase. We could also provide additional resources or documentation to help the customer diagnose and resolve their issue, such as links to relevant Vercel documentation or code examples. Additionally, we could create variations of the exercise that focus on different aspects of customer support, such as troubleshooting performance issues, optimizing application code, or assisting with configuration and deployment. This would help to sort of simulate different types of real-world scenarios that customer success engineers may encounter in their work.',
   }
 ]
