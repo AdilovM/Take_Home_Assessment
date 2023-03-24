@@ -9,9 +9,9 @@ const question = ({ question }) => {
 
   return (
     <>
-      <Meta title={question.question} description={question.excerpt} />
-      <h1>{question.question}</h1>
-      <p>{question.answer}</p>
+      <Meta title={question.title} description={question.excerpt} />
+      <h1>{question.title}</h1>
+      <p>{question.body}</p>
       <br />
       <Link href='/'>Go Back</Link>
     </>
@@ -19,7 +19,8 @@ const question = ({ question }) => {
 }
 
 export const getStaticProps = async (context) => {
-  const res = await fetch(`${server}/api/questions/${context.params.id}`,
+  // const res = await fetch(`${server}/api/questions/${context.params.id}`,
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${context.params.id}`,
     {
       method: "GET",
       headers: {
@@ -41,7 +42,8 @@ export const getStaticProps = async (context) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/questions`,
+  // const res = await fetch(`${server}/api/questions`,
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/`,
     {
       method: "GET",
       headers: {
