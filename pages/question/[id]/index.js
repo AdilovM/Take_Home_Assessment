@@ -10,8 +10,8 @@ const question = ({ question }) => {
   return (
     <>
       <Meta title={question.question} description={question.excerpt} />
-      <h1>{question.question}</h1>
-      <p>{question.body}</p>
+      <h3>{question.question}</h3>
+      <p>{question.answer}</p>
       <br />
       <Link href='/'>Go Back</Link>
     </>
